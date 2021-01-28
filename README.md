@@ -2,7 +2,7 @@
 
 Demo for [`<vlc-video>`](http://github.com/ruurdbijlsma/vlc-video) component.
 
-![screenshot](.gh/screenshot.png)
+![screenshot](https://github.com/ruurdbijlsma/vlc-video-demo/blob/master/.gh/screenshot.png?raw=true)
 
 # Running the demo
 
