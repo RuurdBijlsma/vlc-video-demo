@@ -12,7 +12,7 @@
   },
   "main": "background.js",
   "dependencies": {
-    "vlc-video": "^1.0.4",
+    "vlc-video": "github:ruurdbijlsma/vlc-video",
     "vue": "^2.6.11",
     "wcjs-prebuilt": "github:RuurdBijlsma/wcjs-prebuilt"
   },
