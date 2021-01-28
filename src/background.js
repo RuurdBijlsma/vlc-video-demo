@@ -21,11 +21,10 @@ async function createWindow() {
         backgroundColor: '#201e21',
         icon,
         webPreferences: {
-            webSecurity: false,
             enableRemoteModule: true,
             // Use pluginOptions.nodeIntegration, leave this alone
             // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
-            nodeIntegration: true,
+            nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
         }
     })
 

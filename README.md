@@ -1,6 +1,8 @@
-# vlc-video-demo
+# Demo project for [`<vlc-video>`](http://github.com/ruurdbijlsma/vlc-video)
 
 Demo for [`<vlc-video>`](http://github.com/ruurdbijlsma/vlc-video) component.
+
+![screenshot](.gh/screenshot.png)
 
 # Running the demo
 
