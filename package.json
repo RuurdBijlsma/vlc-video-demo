@@ -1,0 +1,27 @@
+{
+  "name": "vlc-video-demo",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Ruurd Bijlsma <ruurd@bijlsma.dev>",
+  "description": "Demo of VLC Player component for Vue/Electron",
+  "scripts": {
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "vlc-video": "github:RuurdBijlsma/vlc-video",
+    "vue": "^2.6.11",
+    "wcjs-prebuilt": "github:RuurdBijlsma/wcjs-prebuilt"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "electron": "11.1.0",
+    "electron-devtools-installer": "^3.1.0",
+    "vue-cli-plugin-electron-builder": "~2.0.0-rc.5",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
