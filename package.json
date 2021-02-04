@@ -1,6 +1,6 @@
 {
   "name": "vlc-video-demo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "author": "Ruurd Bijlsma <ruurd@bijlsma.dev>",
   "description": "Demo of VLC Player component for Vue/Electron",

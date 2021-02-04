@@ -14,8 +14,8 @@
 </template>
 
 <script>
-// import VlcVideo from "vlc-video";
-import VlcVideo from "./components/VlcVideo";
+import VlcVideo from "vlc-video";
+// import VlcVideo from "./components/VlcVideo";
 
 export default {
     name: 'App',

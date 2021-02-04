@@ -8,5 +8,6 @@ Demo for [`<vlc-video>`](http://github.com/ruurdbijlsma/vlc-video) component.
 
 Only works on Windows x64 for now.
 
-1. `npm install`
-2. `npm run electron:serve`
+1. Make sure VLC is in your PATH
+2. `npm install`
+3. `npm run electron:serve`
