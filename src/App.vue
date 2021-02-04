@@ -7,14 +7,15 @@
                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"/>
         <h1>HTML Video</h1>
         <video class="player"
+               height="auto"
                controls
                src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"/>
     </div>
 </template>
 
 <script>
-import VlcVideo from "vlc-video";
-// import VlcVideo from "./components/VlcVideo";
+// import VlcVideo from "vlc-video";
+import VlcVideo from "./components/VlcVideo";
 
 export default {
     name: 'App',
@@ -36,6 +37,6 @@ export default {
 }
 
 .player {
-    width: 100%;
+    width: 80%;
 }
 </style>

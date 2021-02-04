@@ -220,6 +220,11 @@ export default {
             this.player = chimera.createPlayer();
             this.player.bindCanvas(this.$refs.canvas);
 
+            this.player.on('message', (a, b) => {
+                if (a > 0) console.warn(a, b)
+                else console.log(a, b)
+            })
+
             this.player.on('play', () => {
                 this.paused = false;
                 if (firstPlay) {

@@ -19,7 +19,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "electron": "11.1.0",
+    "electron": "^11.2.1",
     "electron-devtools-installer": "^3.1.0",
     "vue-cli-plugin-electron-builder": "~2.0.0-rc.5",
     "vue-template-compiler": "^2.6.11"
